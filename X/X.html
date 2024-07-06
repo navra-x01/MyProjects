@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X</title>
+    <link rel="stylesheet" href="src/output.css">
+</head>
+<body class="bg-black text-white">
+    <div class="container flex mx-auto w-10/12">
+        <div class="first  w-[65%] ">
+            <div class="sidebar sticky top-0 flex flex-col justify-end my-5">
+                <div class="logo my-2 mx-1 [@media(max-width:1400px)]:self-end [@media(max-width:1400px)]:mr-12">
+                    
+                     <svg viewBox="0 0 24 24" aria-hidden="true" fill="white" width="40" class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-1nao33i r-16y2uox r-8kz0gk"><g><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></g></svg>
+                    
+                </div>
+                <ul class="flex flex-col space-y-1 text-2xl w-[80%] font-bold [@media(max-width:1400px)]:items-end ">
+                    <li class="flex justify-start items-center gap-5 w-fit p-2 hover:bg-gray-800 hover:cursor-pointer hover:rounded-3xl"><span><img src="icons/home.svg" alt=""></span> <span class="[@media(min-width:1400px)]:block hidden">Home</span> </li>
+                    <li class="flex justify-start items-center gap-5 w-fit p-2 hover:bg-gray-800 hover:cursor-pointer hover:rounded-3xl"><span><img src="icons/explore.svg" alt=""></span> <span class="[@media(min-width:1400px)]:block hidden">Explore</span> </li>
+                    <li class="flex justify-start items-center gap-5 w-fit p-2 hover:bg-gray-800 hover:cursor-pointer hover:rounded-3xl"><span><img src="icons/notification.svg" alt=""></span><span class="[@media(min-width:1400px)]:block hidden">Notifications</span> </li>
+                    <li class="flex justify-start items-center gap-5 w-fit p-2 hover:bg-gray-800 hover:cursor-pointer hover:rounded-3xl"><span><img src="icons/messages.svg" alt=""></span> <span class="[@media(min-width:1400px)]:block hidden">Messages</span> </li>
+                    <li class="flex justify-start items-center gap-5 w-fit p-2 hover:bg-gray-800 hover:cursor-pointer hover:rounded-3xl"><span><img src="icons/grok.svg" alt=""></span> <span class="[@media(min-width:1400px)]:block hidden">Grok</span> </li>
+                    <li class="flex justify-start items-center gap-5 w-fit p-2 hover:bg-gray-800 hover:cursor-pointer hover:rounded-3xl"><span><img src="icons/bookmarks.svg" alt=""></span> <span class="[@media(min-width:1400px)]:block hidden">Bookmarks</span> </li>
+                    <li class="flex justify-start items-center gap-5 w-fit p-2 hover:bg-gray-800 hover:cursor-pointer hover:rounded-3xl"><span><img src="icons/communities.svg" alt=""></span> <span class="[@media(min-width:1400px)]:block hidden">Communities</span> </li>
+                    <li class="flex justify-start items-center gap-5 w-fit p-2 hover:bg-gray-800 hover:cursor-pointer hover:rounded-3xl"><span><svg viewBox="0 0 24 24" aria-hidden="true" fill="white" width="24" class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-1nao33i r-16y2uox r-8kz0gk"><g><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></g></svg></span> <span class="[@media(min-width:1400px)]:block hidden">Premium</span></li>
+                    <li class="flex justify-start items-center gap-5 w-fit p-2 hover:bg-gray-800 hover:cursor-pointer hover:rounded-3xl"><span><img src="icons/profile.svg" alt=""></span> <span class="[@media(min-width:1400px)]:block hidden">Profile</span> </li>
+                    <li class="flex justify-start items-center gap-5 w-fit p-2 hover:bg-gray-800 hover:cursor-pointer hover:rounded-3xl"><span><img src="icons/more.svg" alt=""></span> <span class="[@media(min-width:1400px)]:block hidden">More</span> </li>
+                </ul>
+
+                <div class="btn">
+                    <button class="bg-blue-400 font-bold p-3 rounded-full w-[80%] mt-2 text-xl [@media(max-width:1400px)]:w-[30%] [@media(max-width:1400px)]:ml-32">Post</button>
+                </div>
+
+
+                <div class="profile flex items-center justify-between mt-10 ">
+                    <div class="flex items-center gap-4  ">
+                        <img class="rounded-full " width="40" src="https://pbs.twimg.com/profile_images/1798050472923996160/Y7xiGWwA_bigger.png" alt="">
+                        <div class="[@media(min-width:1400px)]:block hidden">
+                            <div>Gaurang Sarang</div>
+                            <div class="text-gray-600">@gaurang_s01</div>
+                        </div>
+                    </div>
+
+                    <div><img class="mr-6 [@media(min-width:1400px)]:block hidden" src="icons/ellipsis.svg" alt=""></div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+        <div class="second border-[1px] border-x-white border-y-black w-[140%] ">
+            <div class="top  flex  sticky top-0 bg-black backdrop-blur-3xl opacity-80">
+                <div class="absolute h-1 w-9 bg-blue-700 bottom-0 left-32 rounded-full"></div>
+                <div class="w-1/2 text-center justify-center text-gray-600 hover:bg-gray-800 p-3">For you</div>
+                <div class="w-1/2 text-center justify-center text-gray-600 hover:bg-gray-800 p-3">Following</div>
+            </div>
+
+            <div class="bg-gray-600 h-[1px]  "></div>
+            
+            
+            <div class="whatshap flex justify-center items-center gap-5 p-5">
+                <div class="img">
+                    <img class="rounded-full" width="40" src="https://pbs.twimg.com/profile_images/1798050472923996160/Y7xiGWwA_bigger.png" alt="">
+                </div>
+                <input class="w-full bg-black text-gray-600 text-xl outline-none" type="text"  placeholder="What's happening?">
+            </div>
+            
+            <div class="every  gap-2 flex mx-20 mb-3 items-center text-blue-900">
+                <img src="icons/globe.svg" alt="">
+                <div class= "font-bold text-sm">Everyone can reply</div>
+            </div>
+            
+            <div class="flex justify-center">
+                
+                <div class="bg-gray-600 h-[1px] w-[90%] "></div>
+            </div>
+            
+            <div class="symbols p-3 ml-20 mr-4   flex  items-center space-x-64">
+                <ul class="flex  gap-3 w-[75%]">
+                    <li><img class="cursor-pointer" src="icons/media.svg" alt=""></li>
+                    <li><img class="cursor-pointer" src="icons/gif.svg" alt=""></li>
+                    <li><img class="cursor-pointer" src="icons/poll.svg" alt=""></li>
+                    <li><img class="cursor-pointer" src="icons/emoji.svg" alt=""></li>
+                    <li><img class="cursor-pointer" src="icons/schedule.svg" alt=""></li>
+                    <li><img class="cursor-pointer" src="icons/location.svg" alt=""></li>
+                </ul>
+                
+                <button class="post rounded-full bg-blue-600  p-2 text-sm w-20 flex justify-center items-center ">Post</button>
+            </div>
+
+            <div class="bg-gray-600 h-[2px]  "></div>
+            
+            <div class="show flex justify-center text-blue-600 p-3 cursor-pointer">Show 525 posts</div>
+
+            <div class="bg-gray-600 h-[1px]  "></div>
+
+            <div class="posts my-2">
+                <div class="post p-2 pcontent flex gap-2">
+                    <div class="cimg cursor-pointer">
+                        <img class="rounded-full" width="40" src="https://pbs.twimg.com/profile_images/1798050472923996160/Y7xiGWwA_bigger.png" alt="">
+                    </div>
+                    <div>
+                        <div class="flex space-x-72 ">
+                            <div class="flex gap-1 ">
+                                <div class="font-bold cursor-pointer hover:underline">Elon Musk</div>
+                                <div class="text-gray-400 cursor-pointer">@elonmusk . 14h</div>
+                            </div>
+                            <img class="cursor-pointer" src="icons/ellipsis.svg" alt="">
+                                
+                        </div>
+
+                        <div class="cursor-pointer">f3jfnj3nfjn j3fn fno2n</div>
+
+                        <div class="pimg my-2 ">
+                            <img class="rounded-2xl" src="https://pbs.twimg.com/media/GPXBuJQb0AAHfQi?format=jpg&name=small" alt="">
+                        </div>
+
+                        <div class="icons flex  w-full gap-16">
+                            <div class="flex gap-1 justify-center items-center text-gray-400"><img src="icons/reply.svg" alt="">7K</div>
+                            <div class="flex gap-1 justify-center items-center text-gray-400"><img src="icons/repost.svg" alt="">18K</div>
+                            <div class="flex gap-1 justify-center items-center text-gray-400"><img src="icons/like.svg" alt="">241K</div>
+                            <div class="flex gap-1 justify-center items-center text-gray-400"><img src="icons/view.svg" alt="">40M</div>
+                            <div class="flex gap-1 justify-center items-center text-gray-400">
+                                
+                                    <img src="icons/bookmarks.svg" alt="">
+                                    <img src="icons/share.svg" alt="">
+                                
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    
+                </div>
+                <div class="bg-gray-600 h-[1px]  "></div>
+                <div class="post p-2 pcontent flex gap-2">
+                    <div class="cimg cursor-pointer">
+                        <img class="rounded-full" width="40" src="https://pbs.twimg.com/profile_images/1798050472923996160/Y7xiGWwA_bigger.png" alt="">
+                    </div>
+                    <div>
+                        <div class="flex space-x-72 ">
+                            <div class="flex gap-1 ">
+                                <div class="font-bold cursor-pointer hover:underline">Elon Musk</div>
+                                <div class="text-gray-400 cursor-pointer">@elonmusk . 14h</div>
+                            </div>
+                            <img class="cursor-pointer" src="icons/ellipsis.svg" alt="">
+                                
+                        </div>
+
+                        <div class="cursor-pointer">f3jfnj3nfjn j3fn fno2n</div>
+
+                        <div class="pimg my-2 ">
+                            <img class="rounded-2xl" src="https://pbs.twimg.com/media/GPXBuJQb0AAHfQi?format=jpg&name=small" alt="">
+                        </div>
+
+                        <div class="icons flex  w-full gap-16">
+                            <div class="flex gap-1 justify-center items-center text-gray-400"><img src="icons/reply.svg" alt="">7K</div>
+                            <div class="flex gap-1 justify-center items-center text-gray-400"><img src="icons/repost.svg" alt="">18K</div>
+                            <div class="flex gap-1 justify-center items-center text-gray-400"><img src="icons/like.svg" alt="">241K</div>
+                            <div class="flex gap-1 justify-center items-center text-gray-400"><img src="icons/view.svg" alt="">40M</div>
+                            <div class="flex gap-1 justify-center items-center text-gray-400">
+                                
+                                    <img src="icons/bookmarks.svg" alt="">
+                                    <img src="icons/share.svg" alt="">
+                                
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    
+                </div>
+                <div class="bg-gray-600 h-[1px]  "></div>
+                <div class="post p-2 pcontent flex gap-2">
+                    <div class="cimg cursor-pointer">
+                        <img class="rounded-full" width="40" src="https://pbs.twimg.com/profile_images/1798050472923996160/Y7xiGWwA_bigger.png" alt="">
+                    </div>
+                    <div>
+                        <div class="flex space-x-72 ">
+                            <div class="flex gap-1 ">
+                                <div class="font-bold cursor-pointer hover:underline">Elon Musk</div>
+                                <div class="text-gray-400 cursor-pointer">@elonmusk . 14h</div>
+                            </div>
+                            <img class="cursor-pointer" src="icons/ellipsis.svg" alt="">
+                                
+                        </div>
+
+                        <div class="cursor-pointer">f3jfnj3nfjn j3fn fno2n</div>
+
+                        <div class="pimg my-2 ">
+                            <img class="rounded-2xl" src="https://pbs.twimg.com/media/GPXBuJQb0AAHfQi?format=jpg&name=small" alt="">
+                        </div>
+
+                        <div class="icons flex  w-full gap-16">
+                            <div class="flex gap-1 justify-center items-center text-gray-400"><img src="icons/reply.svg" alt="">7K</div>
+                            <div class="flex gap-1 justify-center items-center text-gray-400"><img src="icons/repost.svg" alt="">18K</div>
+                            <div class="flex gap-1 justify-center items-center text-gray-400"><img src="icons/like.svg" alt="">241K</div>
+                            <div class="flex gap-1 justify-center items-center text-gray-400"><img src="icons/view.svg" alt="">40M</div>
+                            <div class="flex gap-1 justify-center items-center text-gray-400">
+                                
+                                    <img src="icons/bookmarks.svg" alt="">
+                                    <img src="icons/share.svg" alt="">
+                                
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    
+                </div>
+                <div class="bg-gray-600 h-[1px]  "></div>
+                <div class="post p-2 pcontent flex gap-2">
+                    <div class="cimg cursor-pointer">
+                        <img class="rounded-full" width="40" src="https://pbs.twimg.com/profile_images/1798050472923996160/Y7xiGWwA_bigger.png" alt="">
+                    </div>
+                    <div>
+                        <div class="flex space-x-72 ">
+                            <div class="flex gap-1 ">
+                                <div class="font-bold cursor-pointer hover:underline">Elon Musk</div>
+                                <div class="text-gray-400 cursor-pointer">@elonmusk . 14h</div>
+                            </div>
+                            <img class="cursor-pointer" src="icons/ellipsis.svg" alt="">
+                                
+                        </div>
+
+                        <div class="cursor-pointer">f3jfnj3nfjn j3fn fno2n</div>
+
+                        <div class="pimg my-2 ">
+                            <img class="rounded-2xl" src="https://pbs.twimg.com/media/GPXBuJQb0AAHfQi?format=jpg&name=small" alt="">
+                        </div>
+
+                        <div class="icons flex  w-full gap-16">
+                            <div class="flex gap-1 justify-center items-center text-gray-400 "><img  src="icons/reply.svg" alt="">7K</div>
+                            <div class="flex gap-1 justify-center items-center text-gray-400 "><img  src="icons/repost.svg" alt="">18K</div>
+                            <div class="flex gap-1 justify-center items-center text-gray-400 "><img  src="icons/like.svg" alt="">241K</div>
+                            <div class="flex gap-1 justify-center items-center text-gray-400 "><img  src="icons/view.svg" alt="">40M</div>
+                            <div class="flex gap-1 justify-center items-center text-gray-400 ">
+                                
+                                    <img src="icons/bookmarks.svg" alt="">
+                                    <img src="icons/share.svg" alt="">
+                                
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    
+                </div>
+                <div class="bg-gray-600 h-[1px]  "></div>
+            </div>
+        </div>
+        
+        
+        
+        
+        
+        <div class="third hidden [@media(min-width:1280px)]:block w-full ">
+            
+            <div class="search sticky top-0 z-10 my-1 mx-4 ">
+                <input type="text" class="w-[90%] rounded-full bg-slate-800 text-gray-600 p-3" placeholder="Search"> 
+            </div>
+
+
+            <div class="whats sticky top-[-190px] w-[85%] bg-black my-5 mx-4 p-3 border rounded-2xl">
+                <h2 class="text-xl font-bold">What's happening</h2>
+
+                <div class="news flex gap-6 flex-col my-7">
+
+                    <div class="item cursor-pointer">
+                        <div class="text-sm text-gray-600">Trending in India</div>
+                        <div class="font-bold">#Narendra Modi</div>
+                        <div class="text-sm text-gray-600">221K posts</div>
+                    </div>
+                    <div class="item cursor-pointer">
+                        <div class="text-sm text-gray-600">Trending in India</div>
+                        <div class="font-bold">#Narendra Modi</div>
+                        <div class="text-sm text-gray-600">221K posts</div>
+                    </div>
+                    <div class="item cursor-pointer">
+                        <div class="text-sm text-gray-600">Trending in India</div>
+                        <div class="font-bold">#Narendra Modi</div>
+                        <div class="text-sm text-gray-600">221K posts</div>
+                    </div>
+                    <div class="item cursor-pointer">
+                        <div class="text-sm text-gray-600">Trending in India</div>
+                        <div class="font-bold">#Narendra Modi</div>
+                        <div class="text-sm text-gray-600">221K posts</div>
+                    </div>
+                    
+                </div>
+
+            
+
+                <div class="show text-blue-600 cursor-pointer">
+                    Show more
+                </div>
+            </div>
+
+
+
+            <div class="who sticky top-[295px] w-[85%] bg-black my-5 mx-4 p-3 border rounded-2xl">
+                <h2 class="text-xl font-bold">Who to follow</h2>
+
+                <div class="options flex flex-col gap-4 mt-3">
+
+                    <div class="it flex justify-between">
+                        <div class="flex gap-2 items-center">
+                            <img class="h-10 w-10" src="https://pbs.twimg.com/profile_images/1604943357750419465/wk5BAmKG_x96.png" alt="">
+                            <div>
+                                <div>Sports Center</div>
+                                <div>@SportsCenter</div>
+                            </div>
+                        </div>
+                    
+                        <div class="follow bg-white text-black flex items-center rounded-full px-5 text-sm font-bold">Follow</div>
+                        
+                    </div>
+                    <div class="it flex justify-between">
+                        <div class="flex gap-2 items-center">
+                            <img class="h-10 w-10" src="https://pbs.twimg.com/profile_images/1604943357750419465/wk5BAmKG_x96.png" alt="">
+                            <div>
+                                <div>Sports Center</div>
+                                <div>@SportsCenter</div>
+                            </div>
+                        </div>
+                    
+                        <div class="follow bg-white text-black flex items-center rounded-full px-5 text-sm font-bold">Follow</div>
+                        
+                    </div>
+                    <div class="it flex justify-between">
+                        <div class="flex gap-2 items-center">
+                            <img class="h-10 w-10" src="https://pbs.twimg.com/profile_images/1604943357750419465/wk5BAmKG_x96.png" alt="">
+                            <div>
+                                <div>Sports Center</div>
+                                <div>@SportsCenter</div>
+                            </div>
+                        </div>
+                    
+                        <div class="follow bg-white text-black flex items-center rounded-full px-5 text-sm font-bold">Follow</div>
+                        
+                    </div>
+
+                </div>
+
+                <div class="show text-blue-600 cursor-pointer mt-3">
+                    Show more
+                </div>
+        </div>
+
+
+        <div class="more w-[85%] sticky top-[580px] text-gray-600 text-sm my-5 mx-4 p-3 space-x-2 ">
+            <span>Terms of Servvice</span>
+            <span>Privacy Policy</span>
+            <span>Cookie Policy</span>
+            <span>Accessibility</span>
+            <span>Ads info</span>
+            <span>More...</span>
+            <span>2024 X Corp.</span>
+        </div>
+        
+    </div>
+</body>
+</html>

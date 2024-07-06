@@ -1,0 +1,53 @@
+.border{
+    border: 2px solid red;
+    margin: 4px;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.bg-black{
+    background-color: black;
+    color: white;
+}
+
+.invert{
+    filter: invert(1);
+}
+
+.bg-gray{
+    background-color: #121212;
+}
+
+::-webkit-scrollbar:horizontal {
+    display: none; /* Hide the horizontal scrollbar */
+}
+
+/* Custom styles for the vertical scrollbar in Webkit browsers */
+::-webkit-scrollbar {
+    width: 12px; /* Set the width of the vertical scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: #2e2e2e; /* Dark background for the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #555; /* Darker thumb */
+    border-radius: 6px; /* Rounded corners */
+    border: 3px solid #2e2e2e; /* Matches the track background for a gap effect */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #777; /* Slightly lighter on hover */
+}
+
