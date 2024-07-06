@@ -16,7 +16,7 @@ const Navbar = () => {
 
   return (
     <nav className="bg-blue-950 text-white flex justify-between items-center py-2 px-12">
-      <Link href={"/"}><div className="logo font-bold text-xl">Patreon</div></Link>
+      <Link href={"/"}><div className="logo font-bold text-xl">TalentTreasure</div></Link>
       {/* <ul className='flex gap-4 ' >
             <li>Home</li>
             <li>About</li>

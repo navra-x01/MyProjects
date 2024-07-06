@@ -3,7 +3,7 @@ This is one of my initial projects which I have made to gain confidence in my HT
 ```
 
 ```
-This project is just a clone of the UI of official Netflix page 
+This project is just a clone of the UI of official Netflix page and is fully respnsive. 
 ```
 
 ![alt text](image.png)
@@ -19,3 +19,11 @@ This project is just a clone of the UI of official Netflix page
 ![alt text](image-5.png)
 
 ![alt text](image-6.png)
+
+```Responsive design```
+
+![alt text](image-7.png)
+
+![alt text](image-8.png)
+
+![alt text](image-9.png)

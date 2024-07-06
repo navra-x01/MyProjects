@@ -1,8 +1,21 @@
-# React + Vite
+```
+This is the first React project which I have made to get hands on with React. I have used uuid to generate unique ids, react icons for icons and vite as development tool.  
+```
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![alt text](image.png)
 
-Currently, two official plugins are available:
+```
+It is a todo list which allows users to add a todo and save it in the browser's local storage.
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![alt text](image-1.png)
+
+```
+Users can check finished tasks which crosses it and and choose whether to show finsihed tasks or not.
+```
+
+![alt text](image-2.png)
+
+```
+Users can also delete a task and edit a task by clicking on their respective icons.
+```

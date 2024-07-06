@@ -148,7 +148,7 @@ const Manager = () => {
         <div className="logo text-3xl font-bold text-center">
           <span className="text-purple-600">&lt;</span>
           <span>Pass</span>
-          <span className="text-purple-600">OP/&gt;</span>
+          <span className="text-purple-600">Guard/&gt;</span>
         </div>
 
         <div className="text-black text-center text-xl font-bold my-2">

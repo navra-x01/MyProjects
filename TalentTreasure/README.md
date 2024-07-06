@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+```
+This is the current project that I am working on in which I am using Next.js which allows creators to recieve funds from their followers which increases their reach.
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+![alt text](image.png)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+![alt text](image-1.png)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```
+I have used file based routing for Get started, Read more, Login and dashboard pages. Login button allows users to login via various platforms. I have used Github provider of next-auth.js for login and authentication. Various functionalities of an active session are created using next-auth.
+```
 
-## Learn More
+![alt text](image-2.png)
 
-To learn more about Next.js, take a look at the following resources:
+```
+After signing in with github, it loads a dashboard to enter the required details which are stored in the database.
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![alt text](image-3.png)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+```
+The dropdown after login allows users to navigate to different pages and allows sign out using sign out dropdown or a separate logout button. It also allows the user to navigate to their respective pages.
+```
 
-## Deploy on Vercel
+```
+I am currently working on the payment page and integrating a payment gateway. Followers can enter their name, amount and a message which will be displayed on the Supporters list if the payment is successfull.
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+![alt text](image-4.png)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+![alt text](image-5.png)
+
+```
+I have created User and Payment models which have details about User and Payment. I have used Mongoose to interact with the MongoDb database.
+```
+
+```
+I will complete this project within a few days by incorporating the paymnet gateway of Cashfree paymnets using Test mode API keys for payment functionality, working on the remaining pages and then make some UI changes. I then plan to host it. 
+```

@@ -28,17 +28,17 @@ export default function Home() {
       <div className="text-white flex flex-col gap-7 justify-center items-center mt-10 mb-20">
         <h1 className="font-bold text-2xl ">Your fans can buy you a project</h1>
         <div className="flex gap-36">
-          <div className="item bg-slate-500 flex flex-col gap-2 justify-center items-center">
+          <div className="item  flex flex-col gap-2 justify-center items-center">
             <img className="" src="/coin.svg" alt="" width={70} />
             <p>Fund Yourself</p>
             <p>Your fans are available for you to help</p>
           </div>
-          <div className="item bg-slate-500 flex flex-col gap-2 justify-center items-center">
+          <div className="item  flex flex-col gap-2 justify-center items-center">
             <img className="" src="/coin.svg" alt="" width={70} />
             <p>Fund Yourself</p>
             <p>Your fans are available for you to help</p>
           </div>
-          <div className="item bg-slate-500 flex flex-col gap-2 justify-center items-center">
+          <div className="item  flex flex-col gap-2 justify-center items-center">
             <img className="" src="/coin.svg" alt="" width={70} />
             <p>Fund Yourself</p>
             <p>Your fans are available for you to help</p>
